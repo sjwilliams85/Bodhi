@@ -1,0 +1,109 @@
+/* Global */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Work Sans', sans-serif;
+}
+
+p {
+  font-family: 'Merriweather', serif;
+  color: #36454F;
+  max-width: 700px;
+}
+
+h2 {
+  color: #00b8a9;
+}
+
+h3 {
+  color: #f6416c;
+}
+
+.container-fluid {
+  padding: 3% 5%;
+}
+
+.feature-image {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.small-feature-image {
+  width: 100%;
+  margin: 20px 0;
+}
+
+.btn-info {
+  background-color: #00b8a9;
+  font-weight: bold;
+}
+
+.important {
+  text-decoration: underline;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #fff;
+}
+
+/* Navbar */
+#navigation {
+  padding: 2%;
+  margin-left: 2%;
+}
+
+/* Header */
+.showcase {
+  background-image: url("../images/delicious-vegan-food.jpg");
+  background-color: #ffde7d;
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+}
+
+.navbar-brand {
+  font-weight: bold;
+}
+
+.title {
+  width: 50%;
+  font-size: 3.5rem;
+  padding-bottom: 20px;
+  max-width: 640px;
+}
+
+/* Menu */
+#menu {
+  background-color: #f8f3d4;
+}
+
+#drinks {
+  background-color: #f8f3d4;
+}
+
+/* Find us */
+.map {
+  width: 100%;
+}
+
+/* Footer */
+#footer {
+  background-color: #ffde7d;
+  text-align: center;
+  padding: 1% 0;
+}
+
+.icon {
+  margin: 0 10px;
+}
+
+.footer {
+  max-width: none;
+}
+
+@media (max-width: 770px) {
+  .title {
+    width: 70%;
+    font-size: 2.5rem;
+  }
+}
